@@ -57,6 +57,7 @@ CACHES = {
             'no_delay': True,
             'connect_timeout': 2,
             'timeout': 2,
+            'ignore_exc': True,
         }
     }
 }
