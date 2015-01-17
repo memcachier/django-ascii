@@ -3,3 +3,4 @@ memcachier_django_ascii.egg-info/
 build/
 *.pyc
 *.pyo
+venv/

@@ -11,7 +11,7 @@ setup(
     author_email = 'support@memcachier.com',
     url = 'https://github.com/memcachier/django-ascii',
     packages = find_packages(),
-    install_requires = ['pymemcache'],
+    install_requires = ['pymemcache', 'Django>=1.3'],
     license = 'BSD',
     classifiers = [
         'Development Status :: 4 - Beta',
