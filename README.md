@@ -52,7 +52,7 @@ Your cache backend should look something like this:
 ```
 CACHES = {
     'default': {
-        'BACKEND': 'memcache_fix.backend.PyMemcacheCache',
+        'BACKEND': 'memcachier_django.ascii.MemcacheCache',
         'OPTIONS': {
             'no_delay': True,
             'connect_timeout': 2,
